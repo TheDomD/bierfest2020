@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+ <link rel="stylesheet" href="styles.css">
+
+ <title>Bierfest 2020 | Das Fest der Feste</title>
+</head>
+
+<body>
+
+ <div class="header">
+  <h1 id="main-header">Bierfest 2020</h1>
+  <p>Das Fest der Feste</p>
+ </div>
+
+ <h2 id="info">Anmeldeschluss ist der <span>31.12.2019</span>. Weiter Infos werden den glücklichen Gewinnern per Email
+  bekannt
+  gegeben.</h2>
+
+ <div class="register">
+  <form action="#">
+   <label for="name">Name</label>
+   <input type="text" placeholder="Dein Name" required>
+   <label for="email">Email</label>
+   <input type="email" placeholder="Deine Email" required>
+   <label for="age">Dein Alter</label>
+   <select name="age" id="age" required>
+    <option value="no">Auswahl</option>
+    <option value="<16">unter 16 Jahre</option>
+    <option value="16 - 18">16 - 18 Jahre</option>
+    <option value=">18">über 18 Jahre</option>
+   </select>
+   <label for="message">Nachricht</label>
+   <textarea name="message" id="message" cols="30" rows="10" placeholder="Sag Hallo!"></textarea>
+   <label for="agree" id="bedingung">Was auf dem Bierfest passiert, bleibt auf dem Bierfest!</label>
+   <input type="checkbox" name="agree" id="agree" required>Ich stimme zu
+
+
+   <button type="submit">Senden</button>
+  </form>
+ </div>
+
+</body>
+
+</html>
